@@ -1,0 +1,114 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+jspm_packages/
+bower_components
+
+# Build outputs
+dist
+dist-ssr
+build
+*.local
+tmp
+.cache
+.parcel-cache
+.next
+.nuxt
+.vuepress/dist
+out
+
+# Testing
+coverage
+*.lcov
+.nyc_output
+.grunt
+lib-cov
+
+# Environment variables & sensitive data
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+*.pem
+*.key
+*.cert
+*.crt
+secrets.*
+config.local.*
+*.secret
+
+# Database
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Personal files
+*.csv
+*.xls
+*.xlsx
+personal/
+private/
+backup/
+*.backup
+*.bak
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.fleet
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.code-workspace
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# TypeScript
+*.tsbuildinfo
+
+#server
+server.js
